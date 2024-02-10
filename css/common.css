@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Gayathri";
+  font-weight: 400;
+  src: url("../fonts/Gayathri-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gayathri";
+  font-weight: 700;
+  src: url("../fonts/Gayathri-Bold.ttf");
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.d-block {
+  display: block;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+/* sec-first */
+.cmn-ttl {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+/* common btn */
+.cmn-btn {
+  border: 1px solid transparent;
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*.cmn-btn:hover {
+  border: 1px solid var(--btn-color);
+  background-color: var(--black-color);
+  color: var(--btn-color);
+}*/
