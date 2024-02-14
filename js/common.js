@@ -5,3 +5,10 @@
 //       $(".header").removeClass("active");
 //    }
 //});
+
+$(document).ready(function () {
+  $('.menu-icon').on('click', function () {
+      $(this).toggleClass('active');
+      $('.gnav').toggleClass('is-show');
+  });
+});
