@@ -1,9 +1,9 @@
 Slider
 .slick-slider
 {
-    position: relative;
 
     display: block;
+    position: relative;
     box-sizing: border-box;
 
     -webkit-user-select: none;
@@ -20,9 +20,9 @@ Slider
 
 .slick-list
 {
-    position: relative;
 
     display: block;
+    position: relative;
     overflow: hidden;
 
     margin: 0;
@@ -50,13 +50,13 @@ Slider
 
 .slick-track
 {
+
+    display: block;
     position: relative;
     top: 0;
     left: 0;
-
-    display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 .slick-track:before,
 .slick-track:after
@@ -116,4 +116,74 @@ Slider
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    border: 0;
+    background: none;
+    color: var(--bg-color);
+    font-size: 0;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-prev:after {
+    width: 50px;
+    height: 50px;
+    background: url("../img/common/icon_next_arrow.png") no-repeat center/contain;
+	  content: "";
+}
+
+.slick-next {
+    right: 20px;
+    text-align: right;
+}
+
+.slick-next:after {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  content: url("../img/common/icon_next_arrow.png");
+}
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+    color: #7e7e7e;
+}
+/* cus */
+ .slick-next {
+  position: absolute;
+  top: 140px;
+  right: 60px;
+  height: 30px;
+  font-size: 0;
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding-left: 43.3%;
+	list-style-type: none;
+	li {
+			margin: 1px 7px 49px 11px;
+		}
+	button {
+			display: block;
+	width: 13px;
+	height: 13px;
+	padding: 6px;
+	border: none;
+	background-color: #686868;
+	text-indent: -9999px;
+	border-radius: 100%;
+		}
+	li.slick-active button {
+			background-color: #000000;
+		}
 }
