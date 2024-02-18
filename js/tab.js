@@ -27,4 +27,3 @@ $('#tabs-news li').click(function () {
   $(activeTab).fadeIn();
   return false;
 });
-

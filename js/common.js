@@ -8,7 +8,7 @@ $(window).on("scroll", function () {
 });
 
 $(document).ready(function () {
-  $('.menu-icon').on('click', function () {
+  $('#menu-icon').on('click', function () {
     $(this).toggleClass('active');
     $('.gnav').toggleClass('is-show');
   });
