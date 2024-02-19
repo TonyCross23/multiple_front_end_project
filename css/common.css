@@ -31,6 +31,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .d-block {
   display: block;
 }
@@ -66,6 +67,7 @@ img {
   margin: 0 auto;
   max-width: 1980px;
 }
+
 .l-inner {
   width: 95%;
   margin: 0 auto;
@@ -87,23 +89,26 @@ img {
   text-align: center;
   border-bottom: 1px solid var(--text-color);
 }
+
 .header.active {
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    background: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  background: #fff;
 }
+
 .header-bg.active {
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    background: var(--black-color);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  background: var(--black-color);
 }
 
 .header .logo {
   width: 300px;
   padding: 24px 80px 0 0;
 }
+
 /*.header.active {
   background: #902222;
   -webkit-box-shadow: 0 1px 5px var(--bg-color);
@@ -117,6 +122,7 @@ img {
   margin-right: -14px;
   text-align: center;
 }
+
 .gnav li a {
   color: var(--text-color);
   font-size: 18px;
@@ -124,16 +130,19 @@ img {
   text-transform: uppercase;
   opacity: 0.8;
 }
+
 .header .gnav li:last-child {
   margin-right: 0;
   margin-left: 10px;
 }
+
 .gnav li a:hover {
   font-weight: 700;
   transition: 0.8s;
   -webkit-transition: 0.8s;
   opacity: 1;
 }
+
 .header .menu-icon {
   display: none;
 }
@@ -154,24 +163,29 @@ img {
   .l-inner {
     max-width: 102.4vw;
   }
-    .tablet {
+
+  .tablet {
     display: none;
   }
+
   .pc {
     display: block;
   }
+
   .cmn-ttl {
     line-height: 1.2;
-    margin-top: -53.133px;
-    margin-left: 4px;
+    margin-top: -7.084vw;
+    margin-left: 0.533vw;
     color: #FFFFFF;
-    font-size: 45px;
+    font-size: 6vw;
     font-weight: 700;
-}
+  }
+
   /* header */
   .header .logo {
     width: 39.733vw;
   }
+
   .header {
     position: fixed;
     top: 0;
@@ -182,16 +196,18 @@ img {
     padding: 2.667vw 0 6.133vw;
     text-align: center;
     border-bottom: 0.133vw solid var(--text-color);
-}
-.header .gnav {
+  }
+
+  .header .gnav {
     margin-left: -5.867vw;
-}
+  }
+
   .header .gnav li {
     width: 20.667vw;
     line-height: 1.5;
     margin-right: -6.133vw;
     text-align: center;
-}
+  }
 
 }
 
@@ -200,21 +216,22 @@ img {
   body {
     font-size: 2.4vw;
   }
+
   .l-inner {
     max-width: 102.267vw;
   }
 
   .header .logo {
-    width: 300px;
-    padding: 25px 17px 0 0;
-}
+    width: 40vw;
+    padding: 3.333vw 2.267vw 0 0;
+  }
 
   .header .gnav {
     position: absolute;
-    top: 75.473px;
-    right: -810px;
+    top: 10.063vw;
+    right: -108vw;
     width: 100%;
-    padding: 99.795px 0 26.325px;
+    padding: 13.306vw 0 3.51vw;
     background-color: var(--text-color);
     transition: all 0.5s ease;
   }
@@ -226,22 +243,25 @@ img {
   .header .gnav li {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 45.81px;
+    margin-bottom: 6.108vw;
   }
+
   .header .gnav li::after {
-   width: 100%;
-   height: 0.267vw;
-   color: var(--black-color);
-   content: "";
+    width: 100%;
+    height: 0.267vw;
+    color: var(--black-color);
+    content: "";
   }
+
   .header .gnav li a {
     color: var(--black-color);
   }
+
   .header .menu-icon {
     display: block;
     position: relative;
-    width: 62.033px;
-    height: 47.31px;
+    width: 8.271vw;
+    height: 6.308vw;
     cursor: pointer;
   }
 
@@ -249,9 +269,9 @@ img {
     display: block;
     position: absolute;
     top: 78%;
-    left: 9px;
+    left: 1.2vw;
     width: 41%;
-    height: 2.657px;
+    height: 0.354vw;
     background-color: #FFFFFF;
     transform: translateY(-50%);
     -webkit-transition: all 0.3s ease-in-out;
@@ -261,8 +281,8 @@ img {
   .header .hamburger-line::before,
   .header .hamburger-line::after {
     position: absolute;
-    top: -77px;
-    right: 0px;
+    top: -10.267vw;
+    right: 0vw;
     width: 100%;
     height: 70%;
     background-color: #FFFFFF;
@@ -271,11 +291,11 @@ img {
   }
 
   .header .hamburger-line::before {
-    top: -7.275px;
+    top: -0.97vw;
   }
 
   .header .hamburger-line::after {
-    top: 8.025px;
+    top: 1.07vw;
   }
 
   .header .menu-icon.active .hamburger-line {
@@ -293,20 +313,20 @@ img {
   }
 
   .more-new {
-    width: 598px;
-    margin-top: -170px;
-    margin-left: 21px;
-    padding: 2px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 79.733vw;
+    margin-top: -9.733vw;
+    margin-left: 9.8vw;
+    padding: 0.267vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0vw 0.267vw 1.067vw 0vw;
     background-color: var(--text-color);
-}
+  }
 
-/* news */
- .header .menu-icon {
+  /* news */
+  .header .menu-icon {
     display: block;
     position: relative;
-    width: 62.033px;
-    height: 47.31px;
+    width: 8.271vw;
+    height: 6.308vw;
     cursor: pointer;
   }
 
@@ -314,9 +334,9 @@ img {
     display: block;
     position: absolute;
     top: 78%;
-    left: 9px;
+    left: 1.2vw;
     width: 41%;
-    height: 2.657px;
+    height: 0.354vw;
     background-color: var(--black-color);
     transform: translateY(-50%);
     -webkit-transition: all 0.3s ease-in-out;
@@ -326,8 +346,8 @@ img {
   .header .hamburger-line-dack::before,
   .header .hamburger-line-dack::after {
     position: absolute;
-    top: -77px;
-    right: 0px;
+    top: -10.267vw;
+    right: 0vw;
     width: 100%;
     height: 70%;
     background-color: var(--black-color);
@@ -336,11 +356,11 @@ img {
   }
 
   .header .hamburger-line-dack::before {
-    top: -7.275px;
+    top: -0.97vw;
   }
 
   .header .hamburger-line-dack::after {
-    top: 8.025px;
+    top: 1.07vw;
   }
 
   .header .menu-icon.active .hamburger-line-dack {
@@ -356,13 +376,14 @@ img {
     top: 0;
     transform: rotate(-45deg);
   }
+
   .header .gnav li a::after {
     position: absolute;
-    left: 100px;
+    left: 14.933vw;
     width: 65%;
-    height: 41px;
+    height: 5.467vw;
     content: "";
-    border-bottom: 1px solid #141313;
-}
+    border-bottom: 0.133vw solid #141313;
+  }
 
 }
